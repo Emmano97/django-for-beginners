@@ -7,8 +7,8 @@
 </head>
 <body>
     <ul>
-        {% if object_list %}
-            {% for post in object_list %}
+        {% if posts %}
+            {% for post in posts %}
                 <li>{{ post }}</li>
             {% endfor %}
         {% endif %}
